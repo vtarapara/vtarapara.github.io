@@ -1,7 +1,8 @@
 {
-  "name": "my-v0-project",
+  "name": "vt-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vtarapara.github.io/vtarapara.github.io"
   "scripts": {
     "build": "next build",
     "dev": "next dev",

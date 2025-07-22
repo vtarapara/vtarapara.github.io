@@ -11,8 +11,5 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === "production" ? "/vtarapara.github.io" : "",
-  assetPrefix: process.env.NODE_ENV === "production" ? "/vtarapara.github.io/" : "",
-}
-
+  // temp delete base path
 module.exports = nextConfig

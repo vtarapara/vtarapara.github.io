@@ -12,4 +12,5 @@ const nextConfig = {
     unoptimized: true,
   },
   // temp delete base path
+}
 module.exports = nextConfig

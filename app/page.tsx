@@ -313,7 +313,7 @@ export default function CyberpunkPortfolio() {
                     <div className="relative group">
                       <div className="w-64 h-80 lg:w-72 lg:h-96 rounded-lg overflow-hidden border-2 bg-neutral-800" style={{ borderColor: '#00D4FF30' }}>
                         <img
-                          src="./images/cyber-profile.png"
+                          src="./images/cyber-profile.jpg"
                           alt="Vivek Tarapara - Software Engineer"
                           className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                         />

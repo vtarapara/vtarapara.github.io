@@ -116,9 +116,34 @@ body {
   backdrop-filter: blur(4px);
 }
 
-/* Improve button hover states */
+/* Electric Blue Color Overrides */
+.text-blue-electric {
+  color: #00D4FF;
+}
+
+.bg-blue-electric {
+  background-color: #00D4FF;
+}
+
+.border-blue-electric {
+  border-color: #00D4FF;
+}
+
+.hover\:bg-blue-electric:hover {
+  background-color: #00D4FF;
+}
+
+.hover\:text-blue-electric:hover {
+  color: #00D4FF;
+}
+
+.hover\:border-blue-electric:hover {
+  border-color: #00D4FF;
+}
+
+/* Electric Blue hover glow */
 .btn-hover-glow:hover {
-  box-shadow: 0 0 20px rgba(249, 115, 22, 0.3);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
 }
 
 /* Fix card hover effects */
@@ -179,5 +204,14 @@ body {
     padding-left: 0;
     padding-top: 1rem;
     margin-left: 0;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }

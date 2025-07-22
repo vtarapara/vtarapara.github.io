@@ -320,7 +320,7 @@ export default function ProfessionalPortfolio() {
                       {/* Main photo container */}
                       <div className="w-64 h-80 lg:w-72 lg:h-96 rounded-lg overflow-hidden border-2 bg-gray-100 shadow-lg" style={{ borderColor: '#003087' }}>
                         <img
-                          src="./images/cyber-profile.png"
+                          src="./images/cyber-profile.jpg"
                           alt="Vivek Tarapara - Software Engineer"
                           className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                         />

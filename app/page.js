@@ -214,40 +214,23 @@ export default function CyberpunkPortfolio() {
 
                     <div className="text-lg text-neutral-300 leading-relaxed space-y-4">
                       <p>
-                        I'm a <span className="text-orange-500 font-semibold">Duke graduate</span> with dual degrees in
-                        <span className="text-white"> Electrical & Computer Engineering</span> and
-                        <span className="text-white"> Computer Science</span>. I'm passionate about building
-                        <span className="text-orange-500"> scalable systems</span>,
-                        <span className="text-orange-500"> machine learning applications</span>, and solving
-                        <span className="text-orange-500"> complex algorithmic problems</span>.
+                        I'm passionate about creating <span className="text-orange-500">technology that matters</span>
+                        , building <span className="text-orange-500">scalable systems</span> that people actually use
+                        , and applying <span className="text-orange-500">machine learning</span> to solve real-world problems.
                       </p>
 
                       <p>
                         Currently working as a <span className="text-white font-semibold">Software Engineer</span> at
                         <span className="text-orange-500"> MITRE Corporation</span>, where I design
                         <span className="text-white"> ETL pipelines</span> and architect
-                        <span className="text-white"> LLM workflows</span>. I have experience with
-                        <a href="#" className="text-orange-500 hover:text-orange-400 underline">
-                          distributed systems
-                        </a>
-                        ,
-                        <a href="#" className="text-orange-500 hover:text-orange-400 underline">
-                          {" "}
-                          data engineering
-                        </a>
-                        , and
-                        <a href="#" className="text-orange-500 hover:text-orange-400 underline">
-                          {" "}
-                          ML/AI applications
-                        </a>
-                        .
+                        <span className="text-white"> LLM workflows</span>.
                       </p>
 
                       <p>
-                        In my free time, I enjoy <span className="text-white">software product management</span>,
-                        <span className="text-white"> entrepreneurship</span>,
-                        <span className="text-white"> basketball</span>,<span className="text-white"> pickleball</span>,
-                        and spending time with dogs (big and small).
+                        In my free time, I enjoy <span className="text-white">cheffing it up</span>,
+                        <span className="text-white"> gaming with my homies</span>,
+                        <span className="text-white"> hooping</span>,<span className="text-white"> and spending
+                         time with dogspickleball</span>.
                       </p>
                     </div>
 

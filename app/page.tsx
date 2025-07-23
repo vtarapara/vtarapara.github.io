@@ -34,21 +34,37 @@ export default function ProfessionalPortfolio() {
   const [activeSection, setActiveSection] = useState("intro")
 
   useEffect(() => {
-    const handleScroll = () => {
-      const sections = ["intro", "work", "projects", "education"]
-      const scrollPosition = window.scrollY + 100
+  const handleScroll = () => {
+    const sections = ["intro", "work", "projects", "education"]
+    const scrollPosition = window.scrollY + 100
 
-      for (const section of sections) {
-        const element = document.getElementById(section)
-        if (element) {
-          const { offsetTop, offsetHeight } = element
-          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
-            setActiveSection(section)
-            break
-          }
+    // special handling for edu section
+    const educationElement = document.getElementById("education")
+    if (educationElement) {
+      const educationTop = educationElement.offsetTop
+      const windowHeight = window.innerHeight
+      const documentHeight = document.documentElement.scrollHeight
+      
+      if (scrollPosition >= educationTop || 
+          window.scrollY + windowHeight >= documentHeight - 50) {
+        setActiveSection("education")
+        return
+      }
+    }
+
+    // reg section detection for others
+    for (const section of sections.slice(0, -1)) { // exclude edu
+      const element = document.getElementById(section)
+      if (element) {
+        const { offsetTop, offsetHeight } = element
+        if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+          setActiveSection(section)
+          break
         }
       }
     }
+  }
+
 
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
@@ -506,7 +522,7 @@ export default function ProfessionalPortfolio() {
         </section>
 
         <div className="h-32 bg-white"></div>
-        
+
       </main>
 
       {/* Work Details Modal */}

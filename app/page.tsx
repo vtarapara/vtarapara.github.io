@@ -504,6 +504,9 @@ export default function ProfessionalPortfolio() {
             </Card>
           </div>
         </section>
+
+        <div className="h-32 bg-white"></div>
+        
       </main>
 
       {/* Work Details Modal */}

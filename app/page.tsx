@@ -251,7 +251,7 @@ export default function ProfessionalPortfolio() {
 
                       <p>
                         Currently working as a software engineer at MITRE, where I work on improving critical public sector mission systems. 
-                        In my free time, I enjoy cheffing it up, gaming with my friends, playing pickleball, and spending time with dogs.
+                        In my free time, I enjoy cheffing it up, gaming with my friends, playing pickleball, and spending time with my roommate's dog.
                       </p>
                     </div>
 

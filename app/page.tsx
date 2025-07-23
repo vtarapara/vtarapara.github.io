@@ -244,22 +244,16 @@ export default function ProfessionalPortfolio() {
 
                     <div className="text-lg text-gray-700 leading-relaxed space-y-4">
                       <p>
-                        I'm a recent <span className="font-semibold" style={{ color: '#003087' }}>Duke graduate</span> with dual degrees in
-                        <span className="text-gray-900 font-medium"> Electrical & Computer Engineering</span> and
-                        <span className="text-gray-900 font-medium"> Computer Science</span>. I'm passionate about creating <span style={{ color: '#003087' }}>technology that matters</span>
-                        , building <span style={{ color: '#003087' }}>scalable systems</span> that people actually use
-                        , and applying <span style={{ color: '#003087' }}>machine learning</span> to solve real-world problems.
+                        I'm a recent <span className="font-semibold" style={{ color: '#003087' }}>Duke graduate</span> with degree 
+                        in Electrical & Computer Engineering and Computer Science. I'm passionate about creating technology that matters 
+                        and building scalable systems that people actually use.
                       </p>
 
                       <p>
-                        Currently working as a <span className="text-gray-900 font-semibold">Software Engineer</span> at
-                        <span style={{ color: '#003087' }}> MITRE Corporation</span>, where I design
-                        <span className="text-gray-900 font-medium"> ETL pipelines</span> and architect
-                        <span className="text-gray-900 font-medium"> LLM workflows</span>. In my free time, I enjoy <span className="text-gray-900 font-medium">cheffing it up</span>,
-                        <span className="text-gray-900 font-medium"> gaming with my homies</span>,
-                        <span className="text-gray-900 font-medium"> hooping</span>,<span className="text-gray-900 font-medium"> and spending
-                         time with dogs.</span>
+                        Currently working as a software engineer at MITRE, where I work on improving critical public sector mission systems. 
+                        In my free time, I enjoy cheffing it up, gaming with my friends, playing pickleball, and spending time with dogs.
                       </p>
+                    </div>
                     </div>
 
                     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 pt-6">

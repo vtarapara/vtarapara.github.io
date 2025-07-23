@@ -244,7 +244,7 @@ export default function ProfessionalPortfolio() {
 
                     <div className="text-lg text-gray-700 leading-relaxed space-y-4">
                       <p>
-                        I'm a recent <span className="font-semibold" style={{ color: '#003087' }}>Duke graduate</span> with degree 
+                        I'm a recent <span className="font-semibold" style={{ color: '#003087' }}>Duke graduate</span> that double majored 
                         in Electrical & Computer Engineering and Computer Science. I'm passionate about creating technology that matters 
                         and building scalable systems that people actually use.
                       </p>

@@ -262,7 +262,7 @@ export default function ProfessionalPortfolio() {
                           style={{ backgroundColor: '#003087' }}
                           onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#002060')}
                           onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#003087')}
-                          onClick={() => window.open("mailto:vivek.tarapara@duke.edu")}
+                          onClick={() => window.open("mailto:vtara321@gmail.com")}
                         >
                           <Mail className="w-4 h-4 mr-2" />
                           Contact Me
@@ -304,7 +304,7 @@ export default function ProfessionalPortfolio() {
                       </div>
                     </div>
 
-                    <div className="text-sm text-gray-600 font-mono pt-2">vivek.tarapara@duke.edu</div>
+                    <div className="text-sm text-gray-600 font-mono pt-2">vtara321@gmail.com</div>
                   </div>
 
                   {/* Professional Profile Photo */}

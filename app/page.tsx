@@ -154,7 +154,7 @@ export default function ProfessionalPortfolio() {
       name: "Particle Flow Algorithms",
       period: "May 2022 - Sep 2022",
       description: "Graph neural networks for jet reconstruction in ATLAS detector",
-      icon: "./images/particle-physics.jpg",
+      icon: "./images/particle-physics.png",
       technologies: ["Python", "TensorFlow", "Jupyter"],
       github: "https://github.com/vtarapara/PFlow---CERN",
       highlights: [
@@ -167,7 +167,7 @@ export default function ProfessionalPortfolio() {
       name: "MIPS Processor",
       period: "Sep 2023 - Dec 2023",
       description: "5-stage pipelined 32-bit MIPS processor with Whack-A-Mole game",
-      icon: "./images/duke-Eclipse.png",
+      icon: "./images/duke-ece.png",
       technologies: ["Verilog", "Assembly", "Nexus A7 FPGA"],
       github: "https://github.com/vtarapara/Whack-A-Mole",
       highlights: [

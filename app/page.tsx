@@ -170,7 +170,7 @@ export default function ProfessionalPortfolio() {
       period: "Sep 2023 - Dec 2023",
       description: "5-stage pipelined 32-bit MIPS processor with Whack-A-Mole game",
       icon: "💻",
-      technologies: ["Verilog", "Digital Systems"],
+      technologies: ["Verilog", "Assembly", "Nexus A7 FPGA"],
       github: "https://github.com/vtarapara/MIPS-Processor",
       highlights: [
         "Complete 5-stage pipeline implementation",

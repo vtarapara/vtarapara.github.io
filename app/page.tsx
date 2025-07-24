@@ -141,42 +141,39 @@ export default function ProfessionalPortfolio() {
       name: "Construction Delivery Scheduler",
       period: "Sep 2021 - May 2023",
       description: "Scheduling software for SKANSKA construction sites with SMS integration",
-      icon: "🚚",
+      icon: "./images/skanska_logo.jpg",
       technologies: ["React", "Node.js", "PostgreSQL", "Twilio"],
       github: "https://github.com/vtarapara/Delivery",
       highlights: [
         "Real-time scheduling system for construction deliveries",
-        "SMS notification system for delivery updates",
-        "PostgreSQL database for efficient data management",
-        "React frontend with responsive design",
+        "SMS notification system for subcontractor updates and ease of access",
+        "Finalist in 2022 Duke Pratt School of Engineering Design Fair",
       ],
     },
     {
       name: "Particle Flow Algorithms",
       period: "May 2022 - Sep 2022",
       description: "Graph neural networks for jet reconstruction in ATLAS detector",
-      icon: "🔬",
+      icon: "./images/particle-physics.jpg",
       technologies: ["Python", "TensorFlow", "Jupyter"],
       github: "https://github.com/vtarapara/PFlow---CERN",
       highlights: [
-        "Advanced machine learning for particle physics",
+        "Machine learning for particle physics",
         "Graph neural network implementation",
         "ATLAS detector data processing",
-        "Research-grade algorithm development",
       ],
     },
     {
       name: "MIPS Processor",
       period: "Sep 2023 - Dec 2023",
       description: "5-stage pipelined 32-bit MIPS processor with Whack-A-Mole game",
-      icon: "💻",
+      icon: "./images/duke-Eclipse.png",
       technologies: ["Verilog", "Assembly", "Nexus A7 FPGA"],
-      github: "https://github.com/vtarapara/MIPS-Processor",
+      github: "https://github.com/vtarapara/Whack-A-Mole",
       highlights: [
         "Complete 5-stage pipeline implementation",
         "32-bit MIPS architecture design",
-        "Interactive Whack-A-Mole game integration",
-        "Hardware description language expertise",
+        "Custom Whack-A-Mole game integration (seperate hardware)",
       ],
     },
   ]
@@ -420,12 +417,18 @@ export default function ProfessionalPortfolio() {
                   <CardHeader className="pb-3">
                     <div className="flex items-start justify-between">
                       <div className="flex items-center gap-3">
-                        <div className="text-2xl">{project.icon}</div>
-                        <div>
-                          <CardTitle className="text-sm font-bold text-gray-900 tracking-wider">{project.name}</CardTitle>
-                          <p className="text-xs text-gray-500 font-mono">{project.period}</p>
-                        </div>
+                      <div className="w-8 h-8 flex items-center justify-center bg-gray-50 rounded border border-gray-200 overflow-hidden">
+                        <img 
+                          src={project.icon} 
+                          alt={`${project.name} logo`}
+                          className="w-full h-full object-contain"
+                        />
                       </div>
+                      <div>
+                        <CardTitle className="text-sm font-bold text-gray-900 tracking-wider">{project.name}</CardTitle>
+                        <p className="text-xs text-gray-500 font-mono">{project.period}</p>
+                      </div>
+                    </div>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">

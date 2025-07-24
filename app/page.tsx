@@ -417,18 +417,12 @@ export default function ProfessionalPortfolio() {
                   <CardHeader className="pb-3">
                     <div className="flex items-start justify-between">
                       <div className="flex items-center gap-3">
-                      <div className="w-8 h-8 flex items-center justify-center bg-gray-50 rounded border border-gray-200 overflow-hidden">
-                        <img 
-                          src={project.icon} 
-                          alt={`${project.name} logo`}
-                          className="w-full h-full object-contain"
-                        />
+                        <div className="text-2xl">{project.icon}</div>
+                        <div>
+                          <CardTitle className="text-sm font-bold text-gray-900 tracking-wider">{project.name}</CardTitle>
+                          <p className="text-xs text-gray-500 font-mono">{project.period}</p>
+                        </div>
                       </div>
-                      <div>
-                        <CardTitle className="text-sm font-bold text-gray-900 tracking-wider">{project.name}</CardTitle>
-                        <p className="text-xs text-gray-500 font-mono">{project.period}</p>
-                      </div>
-                    </div>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
